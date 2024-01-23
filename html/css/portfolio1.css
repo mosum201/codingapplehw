@@ -1,0 +1,181 @@
+body{
+    box-sizing: border-box;
+}
+
+
+.head-div{
+    background: linear-gradient(rgb(130, 130, 255), rgb(0, 99, 247));
+    padding: 5vw 0px 0px 5vw;
+    display: flex;
+}
+
+.head-title{
+    width: 50%;
+}
+
+.head-img
+{
+    width: 50%;
+    text-align: center;
+    padding: 0;
+}
+
+.head-div h1{
+    color: white;
+
+}
+
+.head-div p{
+    color: white;
+    width: 50%;
+}
+
+.btn{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: 0;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.head-div img{
+    width: 400px;
+}
+
+.show-div{
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    width: 100%;
+}
+
+.service-div{
+    text-align: center;
+    background-color:#4e61c0;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.service-flex{
+    display: flex;
+}
+
+.service-icon{
+    width: 25%;
+    margin: 40px 0px;
+}
+
+.service-icon i{
+    background-color: white;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    color: #4e61c0;
+}
+
+.what-div{
+    margin-top: 5vw;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.what-item1{
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: url(../img/portfolio-1.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.what-item2{
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: url(../img/portfolio-2.jpg);
+    background-size: cover;
+}
+
+.what-item3{
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: url(../img/portfolio-3.jpg);
+    background-size: cover;
+}
+
+.what-item4{
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: url(../img/portfolio-4.jpg);
+    background-size: cover;
+}
+
+.what-container{
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.what-text{
+    color: white;
+    padding: 50px;
+    width: 100%;
+}
+
+.white-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    border: 0px solid white;
+    box-sizing: border-box;
+
+    transition-property: border;
+    transition-duration: 1s;
+}
+
+.white-box:hover{
+    width: 100%;
+    height: 100%;
+    border: 30px solid white;
+}
+
+@media screen and (max-width: 768px) {
+    .head-div{
+        text-align: center;
+        flex-direction: column;
+    }
+    .head-title{
+        width: 90%;
+    }
+    .head-div p{
+        width: 100%;
+    }
+    .head-img{
+        width: 100%;
+    }
+
+    .what-item1 {
+        float: none;
+        width: 100%;
+      }
+    .what-item2 {
+        float: none;
+        width: 100%;
+      }
+    .what-item3 {
+        float: none;
+        width: 100%;
+      }
+    .what-item4 {
+        float: none;
+        width: 100%;
+      }
+}
